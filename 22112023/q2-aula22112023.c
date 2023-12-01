@@ -14,7 +14,7 @@ int main () {
     float deltaPeso = pesoIdeal - pesoAtual;
     float qtdDias = deltaPeso < 0 ? -1 * (deltaPeso / (perdaMensal  / 30)) : (deltaPeso / (perdaMensal  / 30));
     qtdDias = ceilf(qtdDias);
-    printf("%f", qtdDias);
+    printf("Voce chegara em seu objetivo em %.2f dias", qtdDias);
 
 
     return 0;
