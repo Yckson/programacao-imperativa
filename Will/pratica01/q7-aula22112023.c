@@ -2,6 +2,7 @@
 
 int main(){
     float temperaturaC;
+    float temperaturaF;
 
     /* Para converter Celsius para Fahrenheit:
 
@@ -13,7 +14,9 @@ int main(){
    printf("Digite o valor da temperatura em Celsius: ");
    scanf("%f", &temperaturaC);
 
-   printf("\n Temperatura convertida para Fahrenheit: %.2f", temperaturaC * 1.8 + 32);
+   temperaturaF = temperaturaC * 1.8 + 32;
+
+   printf("\n Temperatura convertida para Fahrenheit: %.2f", temperaturaF);
 
 
 

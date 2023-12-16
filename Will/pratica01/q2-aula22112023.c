@@ -8,7 +8,7 @@ int main () {
     scanf("%f", &pesoIdeal);
     printf("\nDigite o peso atual: ");
     scanf("%f", &pesoAtual);
-    printf("Digite o quanto quer perder por mes (kg): ");
+    printf("Digite o quanto quer perder/ganhar por mes (kg): ");
     scanf("%f", &perdaMensal);
 
     float deltaPeso = pesoIdeal - pesoAtual;

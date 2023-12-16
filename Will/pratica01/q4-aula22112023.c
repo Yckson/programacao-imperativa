@@ -8,6 +8,7 @@ int main (){
     printf("Digite o valor em reais: ");
     scanf("%f", &valorEmReais);
 
+    /*Correspondente ao valor em reais de um dolar*/
     printf("\nDigite o valor do cambio para dolar: ");
     scanf("%f", &cambio);
 
