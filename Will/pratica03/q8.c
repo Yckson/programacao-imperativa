@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-
 void solicitarEntrada(int *valor){ /* Foi a alternativa encontrada para evitar muita repeticao de codigo.*/
     printf("\nDigite o numero de estudo: ");
     scanf("%d", valor);
