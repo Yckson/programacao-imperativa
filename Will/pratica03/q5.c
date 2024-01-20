@@ -2,6 +2,7 @@
 
 int verificarDivisibilidade(int num, int denominador){
     return !(num % denominador);
+    /* Um detalhe da linguagem C é que, como tipos boleanos não existem de forma nativa, 0 é interpretado como FALSE e 1 ou qualquer outro número diferente de zero é interpretado como verdadeiro. Assim sendo, se a negação for usada antes de um valor inteiro, esse valor se torna 0 (falso) e antes do 0 se torna 1 (verdadeiro). Isso torna o processo de solução da questão muito mais simples e economiza um pouco de tempo (poderia ser reescrito como " num % denominador == 0 ").*/
 }
 
 int main (){
