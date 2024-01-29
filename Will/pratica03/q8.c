@@ -7,12 +7,12 @@ void solicitarEntrada(int *valor){ /* Foi a alternativa encontrada para evitar m
 }
 
 int buscarNumeracao(int *num, int numeracao){
-    int resto;
+    int quociente;
 
-    resto = *num / numeracao;
+    quociente = *num / numeracao;
     *num = *num % numeracao;
 
-    return resto;
+    return quociente;
 }
 
 int buscarDM(int *num){
