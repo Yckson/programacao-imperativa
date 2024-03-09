@@ -5,17 +5,18 @@
 int main (){
     int media = 7;
     char continuar;
-    float nota1;
+    float nota;
+    
 
     do{
         printf("\nDigite a nota do aluno: ");
-        scanf("%f", &nota1);
+        scanf("%f", &nota);
 
-        if (nota1 >= media){
+        if (nota >= media){
             printf("\nAluno aprovado!");
         }
         else{
-            if (nota1 > 3 && media != 5){
+            if (nota > 3 && media != 5){
                 media = 5;
                 printf("\nAluno em recuperacao!");
                 continue;
